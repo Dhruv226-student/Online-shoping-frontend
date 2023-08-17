@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.transparent-white-bg {
+    background-color: rgba(22, 200, 182, 0.5);
+    /* Adjust the alpha (4th parameter) for transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bg-radius {
+    border-radius: 10px;
+}
+
+.footer {
+    
+    /* Dark background color */
+    color: rgb(0, 0, 0);
+    /* White text color */
+}
